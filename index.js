@@ -5,7 +5,7 @@ const app=express();
 dotenv.config();
 app.use(express.json())
 console.log(process.env)
-const PORT=5000;
+const PORT=process.env.PORT;
 // const users= [
 //     {
 //     "createdAt": "2021-10-01T00:49:47.780Z",
